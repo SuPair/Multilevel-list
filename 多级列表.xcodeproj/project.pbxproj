@@ -14,6 +14,7 @@
 		219418AF1B43D747002328E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 219418AE1B43D747002328E3 /* Images.xcassets */; };
 		219418B21B43D747002328E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 219418B01B43D747002328E3 /* LaunchScreen.xib */; };
 		219418BE1B43D747002328E3 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 219418BD1B43D747002328E3 /* ____Tests.m */; };
+		219418C91B43E7E4002328E3 /* SPTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 219418C81B43E7E4002328E3 /* SPTreeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		219418B71B43D747002328E3 /* 多级列表Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "多级列表Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		219418BC1B43D747002328E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		219418BD1B43D747002328E3 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		219418C71B43E7E4002328E3 /* SPTreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTreeView.h; sourceTree = "<group>"; };
+		219418C81B43E7E4002328E3 /* SPTreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTreeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				219418AE1B43D747002328E3 /* Images.xcassets */,
 				219418B01B43D747002328E3 /* LaunchScreen.xib */,
 				219418A11B43D747002328E3 /* Supporting Files */,
+				219418C71B43E7E4002328E3 /* SPTreeView.h */,
+				219418C81B43E7E4002328E3 /* SPTreeView.m */,
 			);
 			path = "多级列表";
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				219418AA1B43D747002328E3 /* ViewController.m in Sources */,
+				219418C91B43E7E4002328E3 /* SPTreeView.m in Sources */,
 				219418A71B43D747002328E3 /* AppDelegate.m in Sources */,
 				219418A41B43D747002328E3 /* main.m in Sources */,
 			);
@@ -416,6 +422,7 @@
 				219418C31B43D747002328E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		219418C41B43D747002328E3 /* Build configuration list for PBXNativeTarget "多级列表Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				219418C61B43D747002328E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
